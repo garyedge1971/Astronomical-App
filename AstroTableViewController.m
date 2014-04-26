@@ -14,7 +14,7 @@
 
 @interface AstroTableViewController ()
 @property (strong, nonatomic) NSMutableArray *planets;
-@property (strong, nonatomic) GESpaceObject *spaceObject;
+//@property (strong, nonatomic) GESpaceObject *spaceObject;
 @end
 
 @implementation AstroTableViewController
@@ -96,19 +96,19 @@
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    //access object at row from Array
-    GESpaceObject *selectedPlanet = [self.planets objectAtIndex:indexPath.row];
-                                     
-    //point our property obj to it
-    self.spaceObject = selectedPlanet;
-    //log it out
-    NSLog(@"selected Planet Name = %@", self.spaceObject.planetName);
-    
-    [self performSegueWithIdentifier:@"manualSegue" sender:self];
-    
-}
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//    
+//    //access object at row from Array
+//    GESpaceObject *selectedPlanet = [self.planets objectAtIndex:indexPath.row];
+//                                     
+//    //point our property obj to it
+//    self.spaceObject = selectedPlanet;
+//    //log it out
+//    NSLog(@"selected Planet Name = %@", self.spaceObject.planetName);
+//    
+//    [self performSegueWithIdentifier:@"manualSegue" sender:self];
+//    
+//}
 
 /*
 // Override to support conditional editing of the table view.
@@ -154,13 +154,27 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-   
-    GEDetailViewController *detailVC = [segue destinationViewController];
-    // Pass the selected object to the new view controller.
+
+//    // Get Selected row
+//    NSIndexPath *sPath = [self.tableView indexPathForSelectedRow];
+//    
+//    NSLog(@"selected row = %li", (long)sPath.row);
+//    
+//    GESpaceObject *selectedSpaceObject = self.planets[sPath.row];
+//    detailVC.mySpaceObject = selectedSpaceObject;
     
-    detailVC.mySpaceObject = self.spaceObject;
+    //one way is to iterate through Array finding a match for sender
     
+    NSLog(@"Sender = %@", [[sender textLabel]text]);
+    if ([sender isKindOfClass:[UITableViewCell class]]) {
+        
+        if ([[segue destinationViewController] isKindOfClass:[GEDetailViewController class]]) {
+            // Get the new view controller using [segue destinationViewController].
+            GEDetailViewController *detailVC = [segue destinationViewController];
+            NSIndexPath *iPath = [self.tableView indexPathForCell:sender];
+            detailVC.mySpaceObject = self.planets[iPath.row];
+        }
+    }
 }
 
 @end

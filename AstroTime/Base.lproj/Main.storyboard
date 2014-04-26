@@ -36,6 +36,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="IQs-5K-muG" kind="push" identifier="DetailSegue" id="UT4-2X-ijt"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -44,9 +47,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Planets" id="yce-zY-Xiz"/>
-                    <connections>
-                        <segue destination="IQs-5K-muG" kind="push" identifier="manualSegue" id="fQB-82-Hki"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3wY-E4-jnC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
