@@ -14,13 +14,26 @@
 		10F5F44D19095506001E5036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5F44C19095506001E5036 /* main.m */; };
 		10F5F45119095506001E5036 /* GEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5F45019095506001E5036 /* GEAppDelegate.m */; };
 		10F5F45419095506001E5036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F45219095506001E5036 /* Main.storyboard */; };
-		10F5F45719095506001E5036 /* GEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5F45619095506001E5036 /* GEViewController.m */; };
 		10F5F45919095506001E5036 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F45819095506001E5036 /* Images.xcassets */; };
 		10F5F46019095507001E5036 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F5F45F19095507001E5036 /* XCTest.framework */; };
 		10F5F46119095507001E5036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F5F44019095506001E5036 /* Foundation.framework */; };
 		10F5F46219095507001E5036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F5F44419095506001E5036 /* UIKit.framework */; };
 		10F5F46A19095507001E5036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F46819095507001E5036 /* InfoPlist.strings */; };
 		10F5F46C19095507001E5036 /* AstroTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5F46B19095507001E5036 /* AstroTimeTests.m */; };
+		10F5F47719095539001E5036 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5F47619095539001E5036 /* AstronomicalData.m */; };
+		10F5F47A19095577001E5036 /* GESpaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5F47919095577001E5036 /* GESpaceObject.m */; };
+		10F5F47D19095B3C001E5036 /* AstroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5F47C19095B3C001E5036 /* AstroTableViewController.m */; };
+		10F5F48819096533001E5036 /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F47E19096533001E5036 /* Earth.jpg */; };
+		10F5F48919096533001E5036 /* EinsteinRing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F47F19096533001E5036 /* EinsteinRing.jpg */; };
+		10F5F48A19096533001E5036 /* Jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F48019096533001E5036 /* Jupiter.jpg */; };
+		10F5F48B19096533001E5036 /* Mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F48119096533001E5036 /* Mars.jpg */; };
+		10F5F48C19096533001E5036 /* Mercury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F48219096533001E5036 /* Mercury.jpg */; };
+		10F5F48D19096533001E5036 /* Neptune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F48319096533001E5036 /* Neptune.jpg */; };
+		10F5F48E19096533001E5036 /* Orion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F48419096533001E5036 /* Orion.jpg */; };
+		10F5F48F19096533001E5036 /* Saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F48519096533001E5036 /* Saturn.jpg */; };
+		10F5F49019096533001E5036 /* Uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F48619096533001E5036 /* Uranus.jpg */; };
+		10F5F49119096533001E5036 /* Venus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F5F48719096533001E5036 /* Venus.jpg */; };
+		10F5F494190A94EE001E5036 /* GEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5F493190A94EE001E5036 /* GEDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +58,30 @@
 		10F5F44F19095506001E5036 /* GEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEAppDelegate.h; sourceTree = "<group>"; };
 		10F5F45019095506001E5036 /* GEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEAppDelegate.m; sourceTree = "<group>"; };
 		10F5F45319095506001E5036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		10F5F45519095506001E5036 /* GEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEViewController.h; sourceTree = "<group>"; };
-		10F5F45619095506001E5036 /* GEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEViewController.m; sourceTree = "<group>"; };
 		10F5F45819095506001E5036 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		10F5F45E19095507001E5036 /* AstroTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F5F45F19095507001E5036 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		10F5F46719095507001E5036 /* AstroTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AstroTimeTests-Info.plist"; sourceTree = "<group>"; };
 		10F5F46919095507001E5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10F5F46B19095507001E5036 /* AstroTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroTimeTests.m; sourceTree = "<group>"; };
+		10F5F47519095539001E5036 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		10F5F47619095539001E5036 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
+		10F5F47819095577001E5036 /* GESpaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESpaceObject.h; sourceTree = "<group>"; };
+		10F5F47919095577001E5036 /* GESpaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESpaceObject.m; sourceTree = "<group>"; };
+		10F5F47B19095B3C001E5036 /* AstroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AstroTableViewController.h; path = ../AstroTableViewController.h; sourceTree = "<group>"; };
+		10F5F47C19095B3C001E5036 /* AstroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AstroTableViewController.m; path = ../AstroTableViewController.m; sourceTree = "<group>"; };
+		10F5F47E19096533001E5036 /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		10F5F47F19096533001E5036 /* EinsteinRing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EinsteinRing.jpg; sourceTree = "<group>"; };
+		10F5F48019096533001E5036 /* Jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jupiter.jpg; sourceTree = "<group>"; };
+		10F5F48119096533001E5036 /* Mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mars.jpg; sourceTree = "<group>"; };
+		10F5F48219096533001E5036 /* Mercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercury.jpg; sourceTree = "<group>"; };
+		10F5F48319096533001E5036 /* Neptune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neptune.jpg; sourceTree = "<group>"; };
+		10F5F48419096533001E5036 /* Orion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orion.jpg; sourceTree = "<group>"; };
+		10F5F48519096533001E5036 /* Saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpg; sourceTree = "<group>"; };
+		10F5F48619096533001E5036 /* Uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uranus.jpg; sourceTree = "<group>"; };
+		10F5F48719096533001E5036 /* Venus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Venus.jpg; sourceTree = "<group>"; };
+		10F5F492190A94EE001E5036 /* GEDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEDetailViewController.h; sourceTree = "<group>"; };
+		10F5F493190A94EE001E5036 /* GEDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +144,14 @@
 				10F5F44F19095506001E5036 /* GEAppDelegate.h */,
 				10F5F45019095506001E5036 /* GEAppDelegate.m */,
 				10F5F45219095506001E5036 /* Main.storyboard */,
-				10F5F45519095506001E5036 /* GEViewController.h */,
-				10F5F45619095506001E5036 /* GEViewController.m */,
+				10F5F47B19095B3C001E5036 /* AstroTableViewController.h */,
+				10F5F47C19095B3C001E5036 /* AstroTableViewController.m */,
+				10F5F492190A94EE001E5036 /* GEDetailViewController.h */,
+				10F5F493190A94EE001E5036 /* GEDetailViewController.m */,
+				10F5F47819095577001E5036 /* GESpaceObject.h */,
+				10F5F47919095577001E5036 /* GESpaceObject.m */,
+				10F5F47519095539001E5036 /* AstronomicalData.h */,
+				10F5F47619095539001E5036 /* AstronomicalData.m */,
 				10F5F45819095506001E5036 /* Images.xcassets */,
 				10F5F44719095506001E5036 /* Supporting Files */,
 			);
@@ -126,6 +161,16 @@
 		10F5F44719095506001E5036 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				10F5F47E19096533001E5036 /* Earth.jpg */,
+				10F5F47F19096533001E5036 /* EinsteinRing.jpg */,
+				10F5F48019096533001E5036 /* Jupiter.jpg */,
+				10F5F48119096533001E5036 /* Mars.jpg */,
+				10F5F48219096533001E5036 /* Mercury.jpg */,
+				10F5F48319096533001E5036 /* Neptune.jpg */,
+				10F5F48419096533001E5036 /* Orion.jpg */,
+				10F5F48519096533001E5036 /* Saturn.jpg */,
+				10F5F48619096533001E5036 /* Uranus.jpg */,
+				10F5F48719096533001E5036 /* Venus.jpg */,
 				10F5F44819095506001E5036 /* AstroTime-Info.plist */,
 				10F5F44919095506001E5036 /* InfoPlist.strings */,
 				10F5F44C19095506001E5036 /* main.m */,
@@ -229,9 +274,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F5F48819096533001E5036 /* Earth.jpg in Resources */,
+				10F5F49119096533001E5036 /* Venus.jpg in Resources */,
+				10F5F48C19096533001E5036 /* Mercury.jpg in Resources */,
+				10F5F48F19096533001E5036 /* Saturn.jpg in Resources */,
+				10F5F49019096533001E5036 /* Uranus.jpg in Resources */,
 				10F5F45919095506001E5036 /* Images.xcassets in Resources */,
+				10F5F48D19096533001E5036 /* Neptune.jpg in Resources */,
+				10F5F48B19096533001E5036 /* Mars.jpg in Resources */,
 				10F5F44B19095506001E5036 /* InfoPlist.strings in Resources */,
 				10F5F45419095506001E5036 /* Main.storyboard in Resources */,
+				10F5F48919096533001E5036 /* EinsteinRing.jpg in Resources */,
+				10F5F48A19096533001E5036 /* Jupiter.jpg in Resources */,
+				10F5F48E19096533001E5036 /* Orion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F5F45119095506001E5036 /* GEAppDelegate.m in Sources */,
-				10F5F45719095506001E5036 /* GEViewController.m in Sources */,
 				10F5F44D19095506001E5036 /* main.m in Sources */,
+				10F5F47D19095B3C001E5036 /* AstroTableViewController.m in Sources */,
+				10F5F47A19095577001E5036 /* GESpaceObject.m in Sources */,
+				10F5F47719095539001E5036 /* AstronomicalData.m in Sources */,
+				10F5F494190A94EE001E5036 /* GEDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +515,7 @@
 				10F5F47119095507001E5036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F5F47219095507001E5036 /* Build configuration list for PBXNativeTarget "AstroTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +524,7 @@
 				10F5F47419095507001E5036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
